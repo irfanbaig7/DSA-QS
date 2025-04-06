@@ -1,12 +1,10 @@
-
+import java.util.Arrays;
 
 public class D1_BubbleSort {
     public static void main(String[] args) {
         int[] arr = { 5, 3, 8, 4, 2 };
         bubbleSort(arr);
-        for (int i : arr) {
-            System.out.print(i + " ");
-        }
+        System.out.println(Arrays.toString(arr));
     }
 
     static void bubbleSort(int[] arr) {
